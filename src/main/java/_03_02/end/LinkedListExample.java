@@ -11,17 +11,19 @@ public class LinkedListExample {
         list.add("second item");
         System.out.println(list);
 
-        System.out.println(list.getFirst());
-        System.out.println(list.getLast());
+//        System.out.println(list.getFirst());
+//        System.out.println(list.getLast());
+//
+//        System.out.println(list.poll());
+//        System.out.println(list);
 
         System.out.println(list.poll());
         System.out.println(list);
-
         System.out.println(list.pop());
         System.out.println(list);
 
+//        System.out.println(list.pop());
         System.out.println(list.poll());
-        System.out.println(list.pop());
 
     }
 

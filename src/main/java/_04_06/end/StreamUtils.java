@@ -15,13 +15,13 @@ public class StreamUtils {
     // This method should return a list only containing items
     // from the original list that begin with T.
     List<String> beginningWithT(List<String> list) {
-        return list;
+        return list.stream().filter(s->s.startsWith("T")).collect(Collectors.toList());
     }
 
     // This method should a list containing the same elements as the original,
     // but every String should be all capitalized.
     List<String> upperCase(List<String> list) {
-        return list;
+        return list.stream().map(String::toUpperCase).collect(Collectors.toList());
     }
 
 

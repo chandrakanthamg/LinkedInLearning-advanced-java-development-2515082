@@ -18,7 +18,7 @@ public class HashmapExample {
         System.out.println(basket.containsKey("apple"));
 
         basket.merge("apple", 1, Integer::sum);
-        basket.merge("orange", 1, Integer::sum);
+        basket.merge("orange", null, Integer::sum);
 
         System.out.println(basket.get("apple"));
         System.out.println(basket.get("orange"));

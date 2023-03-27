@@ -11,8 +11,9 @@ public class LinkedHashmapExample {
         basket.put("orange", 1);
         basket.put("banana", 3);
 
-        basket.get("apple");
 
+        basket.get("apple");
+        basket.get("orange");
         basket.forEach((key, value) -> System.out.println(key + ": " + value));
     }
 }

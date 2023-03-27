@@ -29,6 +29,7 @@ public class StreamUtils {
     // filter the elements to only get the words beginning with T, and
     // capitalise every string.
     List<String> everythingCombined(List<String> list) {
+
         return list;
     }
 

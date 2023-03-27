@@ -12,7 +12,7 @@ public class ScannerExample {
         System.out.print("Please enter you age: ");
         int age = scanner.nextInt();
         System.out.println(age);
-        scanner.nextLine();
+//        scanner.nextLine();
         System.out.print("Please enter your occupation: ");
         String occupation = scanner.nextLine();
         System.out.println(occupation);
